@@ -1,4 +1,4 @@
-package carro;
+package coursera.carro;
 
 public class Main {
 
