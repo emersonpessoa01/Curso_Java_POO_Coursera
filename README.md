@@ -5,5 +5,5 @@
 
 ## Pré-visualização:
 
-<div align="center"><img src="" width=auto>
+<div align="center"><img src="./img/coursera.png" width=auto>
 </div>
