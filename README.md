@@ -3,7 +3,7 @@
 
  <!--<p></p>-->
 
-<div align="left"><img src="./img/logo_ita-bgremove.png" width=auto>
+<div align="left"><img src="./img/logo-ita-bgremove.png" width=200>
 <img align="right" src="./img/coursera-bgremove.png" width=300>
 </div>
 
