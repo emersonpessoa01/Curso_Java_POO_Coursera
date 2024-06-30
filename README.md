@@ -3,7 +3,7 @@
 
  <!--<p></p>-->
 
-<div align="center"><img src="./img/coursera.png" width=auto>
+<div align="center"><img src="./img/coursera-1.png" width=auto>
 </div>
 
 # [Curso de Orientação a Objetos](https://www.coursera.org/learn/orientacao-a-objetos-com-java)
