@@ -53,4 +53,19 @@ O curso está dividido em dois módulos, cada um composto por várias lições e
 * **Material Complementar**
   * Mais recursos e leituras complementares serão disponibilizados para apoiar seu aprendizado contínuo.
 
+## Módulo 3
+
+* **Testes de Unidade**
+  * Aprender a importância dos testes de unidade no desenvolvimento de software e como implementá-los para garantir a qualidade do código.
+
+* **Diagramas UML**
+  * Explorar os diagramas UML (Linguagem de Modelagem Unificada) para visualizar e documentar a estrutura e comportamento dos sistemas orientados a objetos.
+
+* **Avaliação pelos pares**
+  * Aplicar o que aprendeu através de uma avaliação pelos pares, revisando o trabalho de seus colegas e recebendo feedback sobre o seu próprio.
+
+* **Material Complementar**
+  * Praticar tarefa avaliada por colega: Testes do Cálculo do IMC.
+
 ---
+
