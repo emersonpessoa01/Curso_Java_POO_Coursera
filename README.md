@@ -1,10 +1,12 @@
 
-### Repositório para acompanhamento das aulas
+<h3 align="center">Repositório para acompanhamento das aulas</h3>
 
  <!--<p></p>-->
 
-<div align="center"><img src="./img/coursera-1.png" width=auto>
+<div align="left"><img src="./img/logo_ita-bgremove.png" width=auto>
+<img align="right" src="./img/coursera-bgremove.png" width=300>
 </div>
+
 
 # [Curso de Orientação a Objetos](https://www.coursera.org/learn/orientacao-a-objetos-com-java)
 
