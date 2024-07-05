@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: IBYTE
+Build-Jdk: 17.0.6
+Implementation-Title: Spring Boot Blank Project (from https://github.com
+ /making/spring-boot-blank)
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.coursera
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.coursera.AntesDepois.App
+Created-By: Maven Integration for Eclipse
+
