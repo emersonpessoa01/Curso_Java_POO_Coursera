@@ -1,24 +1,47 @@
 package org.coursera.Carros;
 
 public class Carro {
-	int potencia;
-	int velocidade;
-	String nome;
-
-	void acelerar() {
-		velocidade += potencia;
+	private int potencia;
+	private int velocidade;
+	private int velocidadeMaxima;
+	private String nome;
+	
+	
+	
+	public Carro(String nome, int potencia, int velocidadeMaxima) {
+		this.nome = nome;
+		this.potencia = potencia;
+		this.velocidadeMaxima = velocidadeMaxima;
+		this.velocidade = 0;
 	}
 
-	void frear() {
+	public void acelerar() {
+		velocidade += potencia;
+		if(velocidade > velocidadeMaxima) {
+			velocidade = velocidadeMaxima;
+		}
+	}
+
+	public void frear() {
 		velocidade /= 2;
 	}
 
-	int getVelocidade() {
+	public int getVelocidade() {
 		return velocidade;
 	}
 
-	void imprimir() {
-		System.out.println("O carro " + nome + " está a velocidade de " + getVelocidade() + " km/h");
+	public String getNome() {
+		return nome;
 	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+//	public void imprimir() {
+//		System.out.println("O carro " + nome + " está a velocidade de " + getVelocidade() + " km/h");
+//	}
+	
+	
 
 }
