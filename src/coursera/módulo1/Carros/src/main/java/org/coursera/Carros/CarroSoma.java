@@ -1,37 +1,19 @@
 package org.coursera.Carros;
 
-public class Carro {
+public class CarroSoma extends CarroDeCorrida {
 	private int potencia;
-	private int velocidade;
-	private int velocidadeMaxima;
-	private String nome;
-	
-	
-	
-	public Carro(String nome, int potencia, int velocidadeMaxima) {
+	public CarroSoma(String nome, int potencia, int velocidadeMaxima) {
+		super(nome, velocidadeMaxima);
 		this.nome = nome;
 		this.potencia = potencia;
-		this.velocidadeMaxima = velocidadeMaxima;
-		this.velocidade = 0;
 	}
 
+	@Override
 	public void acelerar() {
 		velocidade += potencia;
 		if(velocidade > velocidadeMaxima) {
 			velocidade = velocidadeMaxima;
 		}
-	}
-
-	public void frear() {
-		velocidade /= 2;
-	}
-
-	public int getVelocidade() {
-		return velocidade;
-	}
-
-	public String getNome() {
-		return nome;
 	}
 
 	public void setNome(String nome) {

@@ -5,12 +5,12 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
-class TesteCarroSoma {
+class TesteCarroMult {
 	CarroDeCorrida c;
 
 	@Before
 	public void inicializaCarro() {
-		c = new CarroSoma("teste", 10, 100);
+		c = new CarroMult("teste", 1.5, 100);
 	}
 
 	@Test
@@ -20,10 +20,17 @@ class TesteCarroSoma {
 	}
 
 	@Test
-	public void testAcelerar() {
+	public void testAcelerarUmaVez() {
 		inicializaCarro();
 		c.acelerar();
 		assertEquals(10, c.getVelocidade());
+	}
+	@Test
+	public void testAcelerarDuasVezes() {
+		inicializaCarro();
+		c.acelerar();
+		c.acelerar();
+		assertEquals(15, c.getVelocidade());
 	}
 
 	public void testFrearAteZero() {
