@@ -83,5 +83,24 @@ O curso está dividido em dois módulos, cada um composto por várias lições e
 
 * **Material Complementar**
   * Praticar tarefa avaliada por colega: Compra Parcelada com Juros
+
+## Módulo 5
+
+* **Encapsulamento**
+  * Entenda o princípio do encapsulamento, que protege os dados dentro de um objeto e controla como esses dados são acessados e modificados.
+
+* **Interfaces em Java**
+  * Explore o uso de interfaces em Java para definir contratos que classes podem implementar, permitindo uma maior flexibilidade e desacoplamento no design do software.
+
+* **Aprofundando na Herança**
+  * Continue a aprofundar seu conhecimento sobre herança, examinando cenários avançados e boas práticas para utilizar a herança de maneira eficiente.
+
+* **Avaliação pelos pares**
+  * Aplique o que aprendeu através de uma avaliação pelos pares, revisando o trabalho de seus colegas e recebendo feedback sobre o seu próprio.
+
+* **Material Complementar**
+  * Hands-on: Problema no Encapsulamento de Arrays
+  * Praticar tarefa avaliada por colega: Métodos de Acesso para Data
+
 ---
 
