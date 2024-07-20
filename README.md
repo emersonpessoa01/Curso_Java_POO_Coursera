@@ -67,5 +67,21 @@ O curso está dividido em dois módulos, cada um composto por várias lições e
 * **Material Complementar**
   * Praticar tarefa avaliada por colega: Testes do Cálculo do IMC.
 
+## Módulo 4
+
+* **Conhecendo a Herança**
+  * Descubra o conceito de herança em orientação a objetos, um princípio fundamental que permite a criação de novas classes baseadas em classes existentes.
+
+* **Acesso aos Objetos**
+  * Aprenda sobre os diferentes níveis de acesso aos objetos e como controlar a visibilidade e a manipulação de dados e métodos dentro de suas classes.
+
+* **Aprofundando na Herança**
+  * Explore mais detalhadamente a herança, incluindo suas vantagens, desvantagens e melhores práticas para usá-la de forma eficaz em seus projetos.
+
+* **Avaliação pelos pares**
+  * Aplique o que aprendeu através de uma avaliação pelos pares, revisando o trabalho de seus colegas e recebendo feedback sobre o seu próprio.
+
+* **Material Complementar**
+  * Praticar tarefa avaliada por colega: Compra Parcelada com Juros
 ---
 
