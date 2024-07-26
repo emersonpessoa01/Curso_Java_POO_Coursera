@@ -1,29 +1,58 @@
 package org.coursera.calculo_imc;
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 public class PacienteTest {
 
     @Test
-    public void testCalcularIMC() {
-        Paciente paciente1 = new Paciente(70, 1.75);
-        Paciente paciente2 = new Paciente(85, 1.80);
-        Paciente paciente3 = new Paciente(95, 1.60);
-
-        assertEquals(22.86, paciente1.calcularIMC(), 0.01);
-        assertEquals(26.23, paciente2.calcularIMC(), 0.01);
-        assertEquals(37.11, paciente3.calcularIMC(), 0.01);
+    public void testDiagnosticoBaixoPesoMuitoGrave() {
+        Paciente paciente = new Paciente(40, 1.75);
+        assertEquals("Baixo peso muito grave", paciente.diagnostico());// IMC = 13,06 (Baixo peso muito grave)
     }
 
     @Test
-    public void testDiagnostico() {
-        Paciente paciente1 = new Paciente(70, 1.75);
-        Paciente paciente2 = new Paciente(85, 1.80);
-        Paciente paciente3 = new Paciente(95, 1.60);
+    public void testDiagnosticoBaixoPesoGrave() {
+        Paciente paciente = new Paciente(49, 1.75); // IMC = 16.00 (Baixo peso grave)
+        assertEquals("Baixo peso grave", paciente.diagnostico());
+    }
 
-        assertEquals("Peso normal", paciente1.diagnostico());
-        assertEquals("Sobrepeso", paciente2.diagnostico());
-        assertEquals("Obesidade grau II", paciente3.diagnostico());
+    @Test
+    public void testDiagnosticoBaixoPeso() {
+        Paciente paciente = new Paciente(56, 1.75); // IMC = 16.98 (Baixo peso)
+        assertEquals("Baixo peso", paciente.diagnostico());
+    }
+
+    @Test
+    public void testDiagnosticoPesoNormal() {
+        Paciente paciente = new Paciente(68, 1.75); // IMC = 22.2 (Peso normal)
+        assertEquals("Peso normal", paciente.diagnostico());
+    }
+
+    @Test
+    public void testDiagnosticoSobrepeso() {
+        Paciente paciente = new Paciente(80, 1.75); // IMC = 26.12 (Sobrepeso)
+        assertEquals("Sobrepeso", paciente.diagnostico());
+    }
+
+    @Test
+    public void testDiagnosticoObesidadeGrauI() {
+        Paciente paciente = new Paciente(95, 1.75); // IMC = 31.02 (Obesidade grau I)
+        assertEquals("Obesidade grau I", paciente.diagnostico());
+    }
+
+    @Test
+    public void testDiagnosticoObesidadeGrauII() {
+        Paciente paciente = new Paciente(110, 1.75);// IMC = 35.92 (Obesidade grau II)
+        assertEquals("Obesidade grau II", paciente.diagnostico());
+    }
+
+    @Test
+    public void testDiagnosticoObesidadeGrauIII() {
+        Paciente paciente = new Paciente(130, 1.75);//> // IMC = 42.45 (Obesidade grau III)
+        assertEquals("Obesidade grau III (obesidade mórbida)", paciente.diagnostico());
     }
 }
+
+
