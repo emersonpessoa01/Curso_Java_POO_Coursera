@@ -102,5 +102,20 @@ O curso está dividido em dois módulos, cada um composto por várias lições e
   * Hands-on: Problema no Encapsulamento de Arrays
   * Praticar tarefa avaliada por colega: Métodos de Acesso para Data
 
----
+## Módulo 6
+
+* **Sobre Polimorfismo**
+  * Aprenda sobre polimorfismo, um dos princípios fundamentais da orientação a objetos, que permite que objetos de diferentes classes sejam tratados de maneira uniforme.
+
+* **Law of Demeter**
+  * Explore a Lei de Demeter, também conhecida como princípio do mínimo conhecimento, que sugere que um objeto deve ter um conhecimento limitado de outros objetos para reduzir o acoplamento.
+
+* **Exceções em Java**
+  * Entenda como lidar com exceções em Java, incluindo a criação e o gerenciamento de exceções para tornar seu código mais robusto e resiliente.
+
+* **Exercício Final do Curso**
+  * Jodas de Palavras Embaralhadas: Aplique todos os conceitos aprendidos em um exercício final desafiador que envolve a criação de um jogo de palavras embaralhadas.
+
+* **Material Complementar**
+  * Praticar tarefa avaliada por colega: Exceções para ler um arquivo
 
